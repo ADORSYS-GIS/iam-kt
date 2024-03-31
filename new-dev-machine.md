@@ -1,4 +1,4 @@
-# Setting Up an New Dev Machine on - AMD Fizen 7 
+# Setting Up a New Dev Machine on - Thinkpad - AMD Ryzen 7 - Ubuntu
 
 ## Installing Chrome and VSCode using Installer
 - Installed Chrome
