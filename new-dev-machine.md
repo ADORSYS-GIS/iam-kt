@@ -47,3 +47,9 @@ If there are some packages that are no longer needed.
 $ sudo apt autoremove
 ```
 
+## Install podman
+```
+$ sudo apt update
+$ sudo apt install podman
+```
+
