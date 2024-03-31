@@ -1,12 +1,12 @@
 # Setting Up an New Dev Machine on - AMD Fizen 7 
 
-## Using Installer
+## Installing Chrome and VSCode using Installer
 - Installed Chrome
   - Downloaded: google-chrome-stable_current_amd64.deb
 - Installed VS Code
   - Downloaded: code_1.87.2-1709912201_amd64.deb
  
-## Using tar command
+## Installing IntelliJ using tar command
 - installed IntelliJ
   - Downloaded: ideaIU-2023.3.6.tar.gz
   - Commands
@@ -23,4 +23,27 @@
 export MAVEN_OPTS="-Dmaven.build.cache.enabled=true"
 ```
 sae and close the file.
- 
+
+## Installing Git using APT
+From a terminal window:
+```
+$ sudo apt update
+$ sudo apt install git
+$ git --version
+$ git config --global user.name "Your Name e.g.Francis Pouatcha"
+$ git config --global user.email "Your adorsys email e.g fxxxxx.pxxxxx@adorsys.com"
+```
+
+## Installing OpenJDK from the command line
+From a terminal window:
+```
+$ sudo apt update
+$ sudo apt install openjdk-21-jdk-headless
+```
+
+## Cleanup the machine
+If there are some packages that are no longer needed.
+```
+$ sudo apt autoremove
+```
+
