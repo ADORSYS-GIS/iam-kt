@@ -60,3 +60,8 @@ $ sudo apt update
 $ sudo apt install podman
 ```
 
+__Create a link to allow podman to be found as docker__
+```
+$ sudo ln -s /usr/bin/podman /usr/bin/docker
+```
+
