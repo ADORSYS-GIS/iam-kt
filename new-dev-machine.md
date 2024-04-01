@@ -6,17 +6,24 @@
 - Installed VS Code
   - Downloaded: code_1.87.2-1709912201_amd64.deb
  
-## Installing IntelliJ using tar command
-- installed IntelliJ
-  - Downloaded: ideaIU-2023.3.6.tar.gz
-  - Commands
+## Installing IntelliJ using snap command
+- install IntelliJ Community
     ```
-    $ sudo tar -xzf ~/Downloads/ideaIU-2023.3.6.tar.gz -C /usr/share/
-    $ /usr/share/idea-IU-233.15026.9/bin/idea.sh 
+    $ sudo snap install intellij-idea-community --classic --edge
     ```
-  - Go for a 30 days license if no license key at hand
-  - Use the menu ```Tools >  Create Desktop Entry``` to create the desktop entry
-
+- install IntelliJ Ultimate
+    ```
+    $ sudo snap install intellij-idea-ultimate --classic --edge
+    ```
+- run IntelliJ Community
+    ```
+    $ intellij-idea-community
+    ```
+- run IntelliJ Ultimate
+    ```
+    $ intellij-idea-ultimate
+    ```
+  
  ## For large mvn build
  Open you the file ```~/.profile``` with your prefered editor. In th botom, add the line
  ```
