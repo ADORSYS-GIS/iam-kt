@@ -18,7 +18,7 @@
   - Use the menu ```Tools >  Create Desktop Entry``` to create the desktop entry
 
  ## For large mvn build
- Open you the file ```~/.profile``` with your prefered editor. In th botom, add the line
+ Open you the file ```~/.bashrc``` with your prefered editor. In th botom, add the line
  ```
 export MAVEN_OPTS="-Dmaven.build.cache.enabled=true"
 ```
